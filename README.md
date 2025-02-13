@@ -2,6 +2,8 @@
 
 **Portas Secretas** é um mini jogo onde você deve descobrir qual porta é a correta para avançar. Tente encontrar a solução o mais rápido possível!
 
+O jogo estará disponivel em https://mini-jogo-portas-next.vercel.app/
+
 ## Como Rodar o Projeto
 
 Para rodar o projeto, basta seguir esses passos:
