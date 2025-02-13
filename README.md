@@ -1,40 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Portas Secretas - Mini Jogo
 
-## Getting Started
+**Portas Secretas** é um mini jogo onde você deve descobrir qual porta é a correta para avançar. Tente encontrar a solução o mais rápido possível!
 
-First, run the development server:
+## Como Rodar o Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Para rodar o projeto, basta seguir esses passos:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Clone o repositório:**
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+   ```bash
+    git clone https://github.com/1mateusbarbozamartins/mini-jogo-portas-next.git
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+2. **Instalar dependências e iniciar servidor:**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+    npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    npm run dev
 
-## Learn More
+    O jogo estará disponivel em http://localhost:3000
 
-To learn more about Next.js, take a look at the following resources:
+## Sobre o Jogo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- **Objetivo**: O objetivo do jogo é escolher a porta correta para ganhar o premio.
+- **Regras**: Você será apresentado a uma série de portas. Apenas uma delas contém o presente.
+- **Instruções**: 
+   - Use o mouse (ou teclado, se disponível) para interagir com as portas.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Tecnologias Usadas
 
-## Deploy on Vercel
+Este projeto foi criado com:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Next.js**: Framework para a construção da aplicação web.
+- **React**: Biblioteca para construção da interface de usuário.
+- **JavaScript**: Linguagem principal utilizada no projeto.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+
